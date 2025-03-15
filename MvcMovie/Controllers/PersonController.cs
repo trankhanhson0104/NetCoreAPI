@@ -1,19 +1,21 @@
 using Microsoft.AspNetCore.Mvc;
-using System.Text.Encodings.Web;
+using MvcMovie.Models;
+
 namespace MvcMovie.Controllers
 {
     public class PersonController : Controller
     {
-        public ActionResult Index()
+        public IActionResult Index()
         {
-            ViewBag.Message = "luyenTapThucHanh";
+            return View() ;
+        }
+        [HttpPost]
+        public IActionResult Index(Person ps)
+        {
+            string strOutput = "bạn có người yêu chưa " + ps.PersonId + "-" + ps.FullName + "-" + ps.Address;
+            ViewBag.infoPerson = strOutput;
             return View();
         }
 
-        public ActionResult Details()
-        {
-            ViewBag.Message = "This is the Person Details page.";
-            return View();
-        }
     }
 }

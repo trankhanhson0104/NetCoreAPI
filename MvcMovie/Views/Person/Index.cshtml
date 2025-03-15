@@ -1,5 +1,10 @@
-@{
-    ViewBag.Title = "Person Index";
-}
-<h2>@ViewBag.Message</h2>
-<p>trankhanhson.</p>
+<h1>Xin chào, @ViewBag.infoPerson</h1>
+<form asp-action="Index">
+    <label>Nhập tên của bạn:</label>
+    <input type="text" name="PersonId">
+    <label>Nơi ở: </ label>
+    <input type="text" name="FullName">
+    <label>Năm sinh: </ label>
+    <input type="text" name="Address">
+    <input type="submit" value="Gửi dữ liệu">
+</form>
