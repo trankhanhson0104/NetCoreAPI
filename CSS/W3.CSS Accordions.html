@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<div class="w3-container">
+
+<h2>trankhanhson </h2>
+<p>2121051361 :</p>
+  
+<button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-black w3-left-align">sonOiiii</button>
+<div id="Demo1" class="w3-container w3-hide">
+  <h4>ttrankhanhson</h4>
+  <p>never have her</p>
+</div>
+
+</div>
+<script>
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+<div class="w3-container">    
+    <button onclick="myFunction('Demo1')" class="w3-button w3-light-grey">
+        trankhanhson</button>
+    
+    <div id="Demo1" class="w3-hide w3-container w3-light-grey">
+      <p>khanhson</p>
+    </div>
+    <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-left-align w3-green">
+        khanhson</button>
+    <div id="Demo2" class="w3-hide w3-container">
+      <p>khanhson</p>
+    </div>
+    <button onclick="myFunction('Demo3')" class="w3-btn w3-block w3-red">
+        khanhson</button>
+    <div id="Demo3" class="w3-hide w3-container w3-center w3-pale-red">
+      <p>khanhson</p>
+    </div>
+</div>
+<script>
+    function myFunction(id) {
+      var x = document.getElementById(id);
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+</script>
+
+<div>
+<button onclick="myFunction('Demo1')" class="w3-button w3-block w3-black w3-left-align">phunthah</button>
+<div id="Demo1" class="w3-hide w3-container">
+    <p>Some text..</p>
+</div>
+<button onclick="myFunction('Demo2')" class="w3-button w3-block w3-black w3-left-align">nhuy</button>
+<div id="Demo2" class="w3-hide w3-container">
+    <p>Some other text..</p>
+</div>
+</div>
+<script>
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace("w3-black", "w3-red");
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace("w3-red", "w3-black");
+  }
+}
+</script>
+</div>
+
+<div>
+    <div class="w3-grey w3-section" style="width:25%">
+        <button onclick="myFunction('Demo1')" class="w3-button w3-block">
+        25%nhuy</button>
+        <div id="Demo1" class="w3-hide w3-container">
+          <p>khanhson</p>
+        </div>
+      </div>
+      
+      <div class="w3-dark-grey w3-section" style="width:50%">
+        <button onclick="myFunction('Demo2')" class="w3-button w3-block">
+        50% phunthah</button>
+        <div id="Demo2" class="w3-hide w3-container">
+          <p>khanhson</p>
+        </div>
+      </div>
+      
+      <div class="w3-light-grey w3-section" style="width:75%">
+        <button onclick="myFunction('Demo3')" class="w3-button w3-block">
+        75% phunthah1</button>
+        <div id="Demo3" class="w3-hide w3-container">
+          <p>khanhson</p>
+        </div>
+      </div>
+      
+      <div class="w3-light-grey w3-section">
+        <button onclick="myFunction('Demo4')" class="w3-button w3-block">
+        Default (100%) thah1</button>
+        <div id="Demo4" class="w3-hide w3-container">
+          <p>trankhanhson</p>
+        </div>
+      </div>
+      
+      </div>
+      <script>
+      function myFunction(id) {
+        var x = document.getElementById(id);
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else { 
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+      </script>      
+</div>
+<button onclick="myFunction('Demo8')" class="w3-button w3-block w3-black w3-left-align">
+    khanhson1</button>
+    
+    <div id="Demo8" class="w3-hide">
+      <a class="w3-button w3-block w3-left-align" href="#">khanhson</a>
+      <a class="w3-button w3-block w3-left-align" href="#">khanhson</a>
+      <a class="w3-button w3-block w3-left-align" href="#">khanhson</a>
+    </div>
+    
+    </div>
+    <script>
+    function myFunction(id) {
+      var x = document.getElementById(id);
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
+
+    
+<button onclick="myFunction('Demo9')" class="w3-button w3-block w3-black w3-left-align">
+    son</button>
+    <div id="Demo9" class="w3-hide w3-border">
+      <ul class="w3-ul">
+        <li>son</li>
+        <li>son</li>
+        <li>son</li>
+      </ul>  
+    </div>
+
+<button onclick="myFunction('Demo1a')" class="w3-button w3-block w3-black w3-left-align">son</button>
+<div id="Demo1a" class="w3-hide w3-animate-zoom">
+  <a href="#" class="w3-button w3-block w3-left-align">son</a>
+  <a href="#" class="w3-button w3-block w3-left-align">son</a>
+  <a href="#" class="w3-button w3-block w3-left-align">son</a>
+</div>
+
+</body>
+</html>
