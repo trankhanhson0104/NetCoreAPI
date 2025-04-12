@@ -8012,11 +8012,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\84799\\OneDrive - Hanoi University of Mining and Geology\\Desktop\\NetCoreAPI\\MvcMovie\\MvcMovie.csproj",
+      "projectUniqueName": "C:\\Users\\84799\\OneDrive - Hanoi University of Mining and Geology\\Desktop\\NetCoreAPI - transon\\MvcMovie\\MvcMovie.csproj",
       "projectName": "MvcMovie",
-      "projectPath": "C:\\Users\\84799\\OneDrive - Hanoi University of Mining and Geology\\Desktop\\NetCoreAPI\\MvcMovie\\MvcMovie.csproj",
+      "projectPath": "C:\\Users\\84799\\OneDrive - Hanoi University of Mining and Geology\\Desktop\\NetCoreAPI - transon\\MvcMovie\\MvcMovie.csproj",
       "packagesPath": "C:\\Users\\84799\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\84799\\OneDrive - Hanoi University of Mining and Geology\\Desktop\\NetCoreAPI\\MvcMovie\\obj\\",
+      "outputPath": "C:\\Users\\84799\\OneDrive - Hanoi University of Mining and Geology\\Desktop\\NetCoreAPI - transon\\MvcMovie\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\84799\\AppData\\Roaming\\NuGet\\NuGet.Config"
